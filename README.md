@@ -1,0 +1,4 @@
+socketChat
+==========
+
+LAN chat webapp
