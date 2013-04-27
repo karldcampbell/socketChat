@@ -1,0 +1,22 @@
+<html>
+<head>
+	<link href="css/main.css" rel="stylesheet" />
+	<title>KDC's SocketChat</title>
+	<script src='http://forum.kdc:8081/socket.io/socket.io.js'></script>
+</head>
+<body>
+	<div id="container">
+		<h1>Welcome to SocketChat!</h1>
+		<div id="chatBox">
+			<br /><br />Connecting to server...<br />
+		</div>
+		<form id="chatForm">
+			<input type="text" id="nickInput" /> : 
+			<input type="text" id="msgInput" /> 
+			<input type="submit" id="msgSend" value="Send" />
+		</form>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/socketChat.js"></script>
+</body>
+</html>

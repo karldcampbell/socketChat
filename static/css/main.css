@@ -1,0 +1,41 @@
+body {
+	background-color: #ddd;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+#container{
+	max-width: 600px;
+	min-width: 300px;
+	height: 100%;
+	margin-left: 25px;
+	margin-right: 5px;
+}
+
+#chatBox{
+	background-color: #eee;
+	height: auto;
+	min-height: 300px;
+	max-height: 500px;
+	overflow: auto;
+}
+
+#chatForm{
+	margin-top: 5px;
+}
+
+#nickInput{
+	width: 10%;
+	min-width: 40px;
+}
+
+#msgInput{
+	width: 75%;
+	min-width: 300px;
+}
+
+#msgSend{
+	width: 10%;
+	min-width: 50px;
+}
