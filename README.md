@@ -1,4 +1,4 @@
 socketChat
 ==========
 
-LAN chat webapp
+LAN chat webapp using node.js and socket.io
